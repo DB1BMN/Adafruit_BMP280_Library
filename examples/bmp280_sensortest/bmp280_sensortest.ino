@@ -60,7 +60,7 @@ void loop() {
   
   Serial.print(F("Temperature = "));
   Serial.print(temp_event.temperature);
-  Serial.println(" *C");
+  Serial.println(" °C");
 
   Serial.print(F("Pressure = "));
   Serial.print(pressure_event.pressure);
