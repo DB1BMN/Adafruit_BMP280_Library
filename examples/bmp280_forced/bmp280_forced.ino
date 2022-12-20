@@ -52,7 +52,7 @@ void loop() {
     // can now print out the new measurements
     Serial.print(F("Temperature = "));
     Serial.print(bmp.readTemperature());
-    Serial.println(" *C");
+    Serial.println(" °C");
 
     Serial.print(F("Pressure = "));
     Serial.print(bmp.readPressure());
