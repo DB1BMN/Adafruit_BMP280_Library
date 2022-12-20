@@ -57,7 +57,7 @@ void setup() {
 void loop() {
     Serial.print(F("Temperature = "));
     Serial.print(bmp.readTemperature());
-    Serial.println(" *C");
+    Serial.println(" °C");
 
     Serial.print(F("Pressure = "));
     Serial.print(bmp.readPressure());
